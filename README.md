@@ -71,13 +71,13 @@ Your code will be compiled this way:
 
 > alex@ubuntu:~/c/printf$ cat main.c
 
-> #include <limits.h>
-> #include <stdio.h>
-> #include "main.h"
+`#include <limits.h>
+ #include <stdio.h>
+ #include "main.h"
 
-> /**main - Entry point 
-> Return: Always 0 */
-> int main(void)
+/**main - Entry point 
+Return: Always 0 */
+int main(void)
 {
     int len;
     int len2;
@@ -137,15 +137,15 @@ Your code will be compiled this way:
     printf("Unknown:[%r]\n");
     
     return (0);
-    }`
+    }
     
-> alex@ubuntu:/c/printf$ gcc -Wall -Wextra -Werror -pedantic -std=gnu89 -Wno-format *.c
+`> alex@ubuntu:/c/printf$ gcc -Wall -Wextra -Werror -pedantic -std=gnu89 -Wno-format *.c
 
 alex@ubuntu:~/c/printf$ ./printf
 
 **Let's try to printf a simple sentence**
 
-Length:[39, 39]
+`Length:[39, 39]
 
 Length:[39, 39]
 
@@ -190,10 +190,7 @@ Unknown:[%r]
 Unknown:[%r]
 }
 
-alex@ubuntu:~/c/printf$ 
-
-| | 
-| ----------- | 
+`alex@ubuntu:~/c/printf$ 
 
 
 - We strongly encourage you to work all together on a set of tests
