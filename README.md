@@ -68,13 +68,18 @@ Your code will be compiled this way:
 - Our main files will include your main header file (main.h): #include main.h
 - You might want to look at the <b>`gcc flag -Wno-format`</b> when testing with your `_printf` and the standard printf. Example of test file that you could use:
 `alex@ubuntu:~/c/printf$ cat main.c 
+
 #include <limits.h>
+
 #include <stdio.h>
+
 #include "main.h"
 
 /**
- `* main - Entry point
+ * main - Entry point
+ 
  * Return: Always 0
+ 
  */
 int main(void)
 {
@@ -84,11 +89,17 @@ int main(void)
     void *addr;
 
     len = _printf("Let's try to printf a simple sentence.\n");
+    
     len2 = printf("Let's try to printf a simple sentence.\n");
+    
     ui = (unsigned int)INT_MAX + 1024;
+    
     addr = (void *)0x7ffe637541f0;
+    
     _printf("Length:[%d, %i]\n", len, len);
+    
     printf("Length:[%d, %i]\n", len2, len2);
+    
     _printf("Negative:[%d]\n", -762534);
     printf("Negative:[%d]\n", -762534);
     _printf("Unsigned:[%u]\n", ui);
