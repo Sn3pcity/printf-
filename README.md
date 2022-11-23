@@ -61,8 +61,6 @@ Authorized functions and macros
 `va_copy (man 3 va_copy)`
 `va_arg (man 3 va_arg)`
 
-| Syntax | Description |
-
 ## Compilation
 Your code will be compiled this way:
 ` $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c`
@@ -140,6 +138,9 @@ Your code will be compiled this way:
     
     return (0);
     }`
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
 
 > alex@ubuntu:/c/printf$ gcc -Wall -Wextra -Werror -pedantic -std=gnu89 -Wno-format *.c
 alex@ubuntu:~/c/printf$ ./printf
@@ -192,6 +193,10 @@ Unknown:[%r]
 }
 
 alex@ubuntu:~/c/printf$ 
+
+| | 
+| ----------- | 
+
 
 - We strongly encourage you to work all together on a set of tests
 - If the task does not specify what to do with an edge case, do the same as printf
