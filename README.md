@@ -6,7 +6,7 @@ C
 - Project to be done in teams of 2 people (your team: Susan Ng'an'ga, S.n.3.p Makau)
 - Project will start Nov 21, 2022 6:00 AM, must end by Nov 25, 2022 6:00 AM
 - was released at Nov 22, 2022 6:00 AM
-- [] An auto review will be launched at the deadline
+- [ x ] An auto review will be launched at the deadline
  
 ## Concepts
 For this project, we expect you to look at these concepts:
@@ -73,15 +73,13 @@ Your code will be compiled this way:
 
 > alex@ubuntu:~/c/printf$ cat main.c
 
-#include <limits.h>
-#include <stdio.h>
-#include "main.h"
+> #include <limits.h>
+> #include <stdio.h>
+> #include "main.h"
 
-/**
- * main - Entry point 
- * Return: Always 0
- */
-int main(void)
+> /**main - Entry point 
+> Return: Always 0 */
+> int main(void)
 {
     int len;
     int len2;
@@ -101,25 +99,45 @@ int main(void)
     printf("Length:[%d, %i]\n", len2, len2);
     
     _printf("Negative:[%d]\n", -762534);
+    
     printf("Negative:[%d]\n", -762534);
+    
     _printf("Unsigned:[%u]\n", ui);
+    
     printf("Unsigned:[%u]\n", ui);
+    
     _printf("Unsigned octal:[%o]\n", ui);
+    
     printf("Unsigned octal:[%o]\n", ui);
+    
     _printf("Unsigned hexadecimal:[%x, %X]\n", ui, ui);
+    
     printf("Unsigned hexadecimal:[%x, %X]\n", ui, ui);
+    
     _printf("Character:[%c]\n", 'H');
+    
     printf("Character:[%c]\n", 'H');
+    
     _printf("String:[%s]\n", "I am a string !");
+    
     printf("String:[%s]\n", "I am a string !");
+    
     _printf("Address:[%p]\n", addr);
+    
     printf("Address:[%p]\n", addr);
+    
     len = _printf("Percent:[%%]\n");
+    
     len2 = printf("Percent:[%%]\n");
+    
     _printf("Len:[%d]\n", len);
+    
     printf("Len:[%d]\n", len2);
+    
     _printf("Unknown:[%r]\n");
+    
     printf("Unknown:[%r]\n");
+    
     return (0);
     }`
 
