@@ -128,7 +128,6 @@ alex@ubuntu:~/c/printf$ ./printf
 Let's try to printf a simple sentence.
 
 Let's try to printf a simple sentence.
-{
 Length:[39, 39]
 
 Length:[39, 39]
