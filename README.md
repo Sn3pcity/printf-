@@ -21,6 +21,7 @@ For this project, we expect you to look at these concepts:
 
 
 ^ In this picture, Kris, and Jul
+
 ![IMG-20201015-WA0015](image.jpg)
 
 ## Resources
@@ -65,7 +66,7 @@ Authorized functions and macros
 `va_arg (man 3 va_arg)`
 
 | Syntax | Description |
-| ----------- | ----------- |
+| ----------- | ---|
 | Header | Title |
 | Paragraph | Text 
 
