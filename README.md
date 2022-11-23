@@ -3,10 +3,10 @@ C
 ## Group project
 - By: Julien Barbier, co-founder & CEO
 - Weight: 5
-- Project to be done in teams of 2 people (your team: **Susan Ng'an'ga**, ** John Muinde **)
+- Project to be done in teams of 2 people (your team: **Susan Ng'an'ga**, **John Muinde**)
 - Project will start Nov 21, 2022 6:00 AM, must end by Nov 25, 2022 6:00 AM
-- was released at Nov 22, 2022 6:00 AM
-- [ x ] An auto review will be launched at the deadline
+- Was released at Nov 22, 2022 6:00 AM
+- [x] An auto review will be launched at the deadline
  
 ## Concepts
 For this project, we expect you to look at these concepts:
@@ -21,6 +21,7 @@ For this project, we expect you to look at these concepts:
 
 
 ^ In this picture, Kris, and Jul
+![IMG-20201015-WA0015](image.jpg)
 
 ## Resources
 Read or watch:
@@ -62,6 +63,11 @@ Authorized functions and macros
 `va_end (man 3 va_end)`
 `va_copy (man 3 va_copy)`
 `va_arg (man 3 va_arg)`
+
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text 
 
 ## Compilation
 Your code will be compiled this way:
