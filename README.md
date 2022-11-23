@@ -79,10 +79,7 @@ Your code will be compiled this way:
     Return: Always 0 */
     int main(void)
 {
-    int len;
-    int len2;
-    unsigned int ui;
-    void *addr; 
+    int len, len2; unsigned int ui; void *addr; 
 
     len = _printf("Let's try to printf a simple sentence.\n");
     
@@ -143,7 +140,7 @@ Your code will be compiled this way:
 
 alex@ubuntu:~/c/printf$ ./printf
 
-    **Let's try to printf a simple sentence**
+*Let's try to printf a simple sentence*
 
      Length:[39, 39]
 
