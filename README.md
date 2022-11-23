@@ -18,7 +18,7 @@ For this project, we expect you to look at these concepts:
 - Background Context
 - Write your own printf function.
 
-![IMG-20201015-WA0015](image.jpg)
+![IMG-20221123-WA0023](image.jpg)
 
 ## Resources
 Read or watch:
@@ -71,13 +71,13 @@ Your code will be compiled this way:
 
 > alex@ubuntu:~/c/printf$ cat main.c
 
-`#include <limits.h>
- #include <stdio.h>
- #include "main.h"
+    #include <limits.h>
+    #include <stdio.h>
+    #include "main.h"
 
-/**main - Entry point 
-Return: Always 0 */
-int main(void)
+    /**main - Entry point 
+    Return: Always 0 */
+    int main(void)
 {
     int len;
     int len2;
@@ -139,58 +139,58 @@ int main(void)
     return (0);
     }
     
-`> alex@ubuntu:/c/printf$ gcc -Wall -Wextra -Werror -pedantic -std=gnu89 -Wno-format *.c
+> alex@ubuntu:/c/printf$ gcc -Wall -Wextra -Werror -pedantic -std=gnu89 -Wno-format *.c
 
 alex@ubuntu:~/c/printf$ ./printf
 
-**Let's try to printf a simple sentence**
+    **Let's try to printf a simple sentence**
 
-`Length:[39, 39]
+     Length:[39, 39]
 
-Length:[39, 39]
+    Length:[39, 39]
 
-Negative:[-762534]
+    Negative:[-762534]
 
-Negative:[-762534]
+    Negative:[-762534]
 
-Unsigned:[2147484671]
+    Unsigned:[2147484671]
 
-Unsigned:[2147484671]
+    Unsigned:[2147484671]
 
-Unsigned octal:[20000001777]
+    Unsigned octal:[20000001777]
 
-Unsigned octal:[20000001777]
+    Unsigned octal:[20000001777]
 
-Unsigned hexadecimal:[800003ff, 800003FF]
+    Unsigned hexadecimal:[800003ff, 800003FF]
 
-Unsigned hexadecimal:[800003ff, 800003FF]
+    Unsigned hexadecimal:[800003ff, 800003FF]
 
-Character:[H]
+    Character:[H]
 
-Character:[H]
+    Character:[H]
 
-String:[I am a string !]
+    String:[I am a string !]
 
-String:[I am a string !]
+    String:[I am a string !]
 
-Address:[0x7ffe637541f0]
+    Address:[0x7ffe637541f0]
+ 
+    Address:[0x7ffe637541f0]
 
-Address:[0x7ffe637541f0]
+    Percent:[%]
 
-Percent:[%]
+    Percent:[%]
 
-Percent:[%]
+    Len:[12]
 
-Len:[12]
+    Len:[12]
 
-Len:[12]
+    Unknown:[%r]
 
-Unknown:[%r]
-
-Unknown:[%r]
+    Unknown:[%r]
 }
 
-`alex@ubuntu:~/c/printf$ 
+alex@ubuntu:~/c/printf$ 
 
 
 - We strongly encourage you to work all together on a set of tests
