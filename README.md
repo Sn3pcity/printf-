@@ -3,7 +3,7 @@ C
 ## Group project
 - By: Julien Barbier, co-founder & CEO
 - Weight: 5
-- Project to be done in teams of 2 people (your team: Susan Ng'an'ga, S.n.3.p Makau)
+- Project to be done in teams of 2 people (your team: **Susan Ng'an'ga**, ** John Muinde **)
 - Project will start Nov 21, 2022 6:00 AM, must end by Nov 25, 2022 6:00 AM
 - was released at Nov 22, 2022 6:00 AM
 - [ x ] An auto review will be launched at the deadline
