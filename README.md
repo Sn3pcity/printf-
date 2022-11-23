@@ -140,12 +140,10 @@ Your code will be compiled this way:
     }`
 | Syntax | Description |
 | ----------- | ----------- |
-| Header | Title |
+| >alex@ubuntu:/c/printf$ gcc -Wall -Wextra -Werror -pedantic -std=gnu89 -Wno-format *.c
+alex@ubuntu:~/c/printf$ ./printf |
 
-> alex@ubuntu:/c/printf$ gcc -Wall -Wextra -Werror -pedantic -std=gnu89 -Wno-format *.c
-alex@ubuntu:~/c/printf$ ./printf
-
-Let's try to printf a simple sentence.
+| Let's try to printf a simple sentence. |
 
 Length:[39, 39]
 
