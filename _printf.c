@@ -12,31 +12,42 @@
 
 int _printf(const char *format, ...)
 {
- int l = strlen(format);
-  va_list ss;
-  va_start(ss, format);
-  
-  for (int k = 0; k < l; k++)
-    if (format[l] == '%' && format[l] == 'c')
-      {
-	int k = va_arg(ss, int);
-      }
-  printf("%c", k);
-  
-     else if (format[l] == '%' && format[l] == 's')
-    {
-      printf("%d", k);
-    }
-  va_end(ss);
+	int l = strlen(format);
+	va_list ss;
 
-  return (0)
+	va_start(ss, format);
+	int k = 0;
 
-    int main(void)
-    {
-      char susan  = 'j';
-      printf("%c", &susan);
-      {
-      int kaa = 57;
-      printf("%d", kaa);
-      }
-    }
+	for (; k < l; k++)
+	{
+	if (format[l] == '%' && format[l] == 'c')
+	{
+		int k = va_arg(ss, int);
+
+	
+		printf("%c", k);
+	}
+
+	else if (format[l] == '%' && format[l] == 's')
+	{
+		printf("%d", k);
+	}
+	va_end(ss);
+
+
+		int main(void)
+		{
+			char susan  = 'j';
+
+			printf("%s", &susan);
+		}
+		{
+			int kaa = 57;
+
+			printf("%d", kaa);
+		}
+	}
+	return (0);
+
+}
+
