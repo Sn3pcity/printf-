@@ -15,8 +15,9 @@ int _printf(const char *format, ...)
 	int l = strlen(format);
 	va_list ss;
 
-	va_start(ss, format);
 	int k = 0;
+
+	va_start(ss, format);
 
 	for (; k < l; k++)
 	{
@@ -24,7 +25,7 @@ int _printf(const char *format, ...)
 	{
 		int k = va_arg(ss, int);
 
-	
+
 		printf("%c", k);
 	}
 
