@@ -40,12 +40,6 @@ int _printf(const char *format, ...)
 		{
 			char susan  = 'j';
 
-			printf("%s", &susan);
-		}
-		{
-			int kaa = 57;
-
-			printf("%d", kaa);
 		}
 	}
 	return (0);
