@@ -19,17 +19,18 @@ int _printf(const char *format, ...)
 
 	va_start(ss, format);
 
-	for (; k < l; k++)
+	for (; k <= l; k++)
 	{
-	if (format[l] == '%' && format[l] == 'c')
+	if (format[l] == '%')// && format[l] == 'c')
 	{
-		int k = va_arg(ss, int);
+		int k = va_arg(ss, char);
 
 
 		printf("%c", k);
 	}
 
-	else if (format[l] == '%' && format[l] == 's')
+	//else 
+		if (format[l] == '%' )//&& format[l] == 's')
 	{
 		printf("%d", k);
 	}
