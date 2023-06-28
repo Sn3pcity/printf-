@@ -1,3 +1,6 @@
+# printf
+# alx-higher_level_programming
+=======
 # 0x11. C - printf
 C
 ## Group project
@@ -197,3 +200,5 @@ alex@ubuntu:~/c/printf$
 - You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
 - You are not allowed to publish any content of this project.
 Any form of plagiarism is strictly forbidden and will result in removal from the program.
+>>>>>>> bf0886de71032c9208d8f703236c6e2f5988622a
+"# Rough-Work" 
