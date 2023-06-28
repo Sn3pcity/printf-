@@ -1,4 +1,5 @@
-//#include main.h
+#include "main.h"
+#include <string.h>
 #include <stdarg.h>
 #include <stdio.h>
 
@@ -10,22 +11,26 @@
 int _printf(const char *format, ...)
 {
 	va_list ss;
+
 	va_start(ss, *format);
-	
-	for(ss=0; ss< strlen(*format); ss++)
+
+	while (format[ss] != '\0')
 	{
-		if(format == '%')
-		printf('%'); 
-		else if(format == 's')
-		char value = va_args(ss, format)
+		if (*format == '%')
+		printf("%%");
+		else if (format == 's')
+		va_arg(ss, *format);
+
 		printf("%s", format);
-		else if(format == 'c')
-		int value = va_args(ss, format);
+		else if (format == 'c')
+		va_arg(ss, *format);
+
 		printf("%c", format);
+
 		else
 		printf(*format);
 	}
-	format ++;
+	format++;
 va_end(ss);
 }
 

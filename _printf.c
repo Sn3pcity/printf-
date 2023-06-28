@@ -36,7 +36,6 @@ int _printf(const char *format, ...)
 	}
 	va_end(ss);
 
-
 		int main(void)
 		{
 			char susan  = 'j';
